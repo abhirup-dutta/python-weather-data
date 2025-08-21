@@ -14,15 +14,14 @@ class WeatherFetcher:
         summary = response_json['weather'][0]['main']
         temperature = response_json['main']['temp']
         humidity = response_json['main']['humidity']
-        return self._jsonify(summary, temperature, humidity)
+        return self._pythonObjectify(city, summary, temperature, humidity)
 
-    def _jsonify(self, summary, temperature, humidity):
-        weather_results = {
+    def _pythonObjectify(self, city, summary, temperature, humidity):
+        return {
+            "city" : city,
             "summary" : summary,
             "temperature" : temperature,
             "humidity" : humidity
         }
-        prepared_json = json.dumps(weather_results)
-        return prepared_json
 
 
