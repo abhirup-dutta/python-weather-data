@@ -1,1 +1,32 @@
-[{"city": "Lima", "summary": "Clouds", "temperature": 17.72, "humidity": 80}, {"city": "Nuuk", "summary": "Clouds", "temperature": 12.34, "humidity": 82}, {"city": "Budapest", "summary": "Clear", "temperature": 21.84, "humidity": 69}, {"city": "Kathmandu", "summary": "Clouds", "temperature": 23.12, "humidity": 94}, {"city": "Hanoi", "summary": "Rain", "temperature": 28, "humidity": 87}]
+[
+    {
+        "city": "Buenos Aires",
+        "summary": "Clear",
+        "temperature": 13.19,
+        "humidity": 74
+    },
+    {
+        "city": "Nuuk",
+        "summary": "Clouds",
+        "temperature": 13.34,
+        "humidity": 76
+    },
+    {
+        "city": "Budapest",
+        "summary": "Clear",
+        "temperature": 21.44,
+        "humidity": 71
+    },
+    {
+        "city": "Cairo",
+        "summary": "Clear",
+        "temperature": 26.42,
+        "humidity": 73
+    },
+    {
+        "city": "Hanoi",
+        "summary": "Rain",
+        "temperature": 28,
+        "humidity": 87
+    }
+]

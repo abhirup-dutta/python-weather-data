@@ -1,14 +1,24 @@
 import json
 
+
 class FileReaderWriter:
 
-    def readFile(self, fileName):
-        with open(fileName, 'r') as file:
-            return json.load(file)
+    def readObjectFromFile(self, file_name):
+        with open(file_name, 'r') as file_pointer:
+            return json.load(file_pointer)
 
-    def writeToFile(self, fileName, string_data):
-        with open(fileName, 'w') as file:
-            file.write(string_data)
+    def readStringFromFile(self, file_name):
+        with open(file_name, 'r') as file_pointer:
+            return file_pointer.read()
+
+    def writeObjectToFile(self, file_name, object_data, indent):
+        with open(file_name, 'w') as file_pointer:
+            json.dump(object_data, file_pointer, indent=indent)
+
+
+    def writeStringToFile(self, file_name, string_data):
+        with open(file_name, 'w') as file_pointer:
+            file_pointer.write(string_data)
 
 
 
