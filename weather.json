@@ -2,7 +2,7 @@
     {
         "city": "Buenos Aires",
         "summary": "Clear",
-        "temperature": 13.19,
+        "temperature": 13.11,
         "humidity": 74
     },
     {
@@ -14,14 +14,14 @@
     {
         "city": "Budapest",
         "summary": "Clear",
-        "temperature": 21.44,
-        "humidity": 71
+        "temperature": 21.04,
+        "humidity": 72
     },
     {
         "city": "Cairo",
-        "summary": "Clear",
+        "summary": "Clouds",
         "temperature": 26.42,
-        "humidity": 73
+        "humidity": 69
     },
     {
         "city": "Hanoi",
